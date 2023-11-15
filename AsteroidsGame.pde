@@ -11,11 +11,12 @@ public void setup()
 public void draw() 
 {
   background(0);
-  man.show();
-  man.move();
   for(int i = 0; i < shine.length; i++){
     shine[i].showStar();
   }
+  man.show();
+  man.move();
+  
 }
 
 public void keyPressed(){
