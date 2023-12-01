@@ -9,7 +9,7 @@ class Asteroid extends Floater{
     myColor = color(255,255,255);
     negative = new int []{-1, 1};
     randomSpeed = negative[(int)(Math.random()*negative.length)];
-    System.out.println(randomSpeed);
+    //System.out.println(randomSpeed);
     myCenterX = (int)(Math.random()*700)-300;
     myCenterY = (int)(Math.random()*700)-300;
     myXspeed = (int)(Math.random()*3)-1*randomSpeed;
