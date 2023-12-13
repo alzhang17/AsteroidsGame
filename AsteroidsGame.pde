@@ -33,7 +33,6 @@ public void draw()
     }
   }
   for (int i = 0; i < shot.size(); i++) {
-    System.out.println(shot.get(i).getX());
     if (shot.get(i).getX() > 395 || shot.get(i).getX() <  0 || shot.get(i).getY() > 395 || shot.get(i).getY() < 0) {
       shot.remove(i);
     } else {
