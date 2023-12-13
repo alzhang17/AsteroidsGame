@@ -22,4 +22,13 @@ class Spaceship extends Floater
       //System.out.println(myCenterX);
       //System.out.println(myCenterY);
     }
+    public double getCenterX(){
+      return myCenterX;
+    }
+    public double getCenterY(){
+      return myCenterY;
+    }
+    public double getPointDirection(){
+      return myPointDirection;
+    }
 }
